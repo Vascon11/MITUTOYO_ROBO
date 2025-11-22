@@ -3,7 +3,7 @@
 Este repositório tem como objetivo fornecer uma base simples e reutilizável para quem deseja montar um robô sumô utilizando o ESP32 e controlar tudo via controle Bluetooth usando a biblioteca Bluepad32.
 Se você está começando um projeto ou quer um código rápido para protótipos, este material serve como ponto de partida.
 
-- Arquitetura do Robô
+##Arquitetura do Robô
   *Eletrônica
 O robô utiliza o clássico driver de motor L298N, capaz de controlar dois motores DC simultaneamente. Além de fornecer controle de direção, esse módulo também disponibiliza uma saída regulada de 5V, que utilizamos para alimentar o VIN do ESP32 — e funcionou perfeitamente.
 Optamos por usar dois motores e um ponto de apoio traseiro (rampa/rodízio), o que permite ao robô mover-se para frente, para trás e realizar curvas sem complexidade adicional.
@@ -12,14 +12,14 @@ A alimentação vem de uma bateria de 12V / 2A, ligada através de uma chave par
 Observação:
 Os motores usados são indicados para cerca de 5–6V, então quando alimentados com 10–11V, a vida útil tende a diminuir. Para uma competição rápida, isso não deve ser um problema, mas se preferir, você pode adicionar um resistor ou regulador DC-DC step-down para manter os 6V seguros.
 
- *Um detalhe importante sobre o ESP32
+##Um detalhe importante sobre o ESP32
 Durante os testes, percebemos uma característica interessante:
 Quando ligamos o ESP32 diretamente nos pinos de controle da ponte H, ele não conseguia ativar duas portas ao mesmo tempo.
 Depois de investigação e vários testes, identificamos que a corrente retornava para o pino do ESP32, causando proteção interna e impedindo o acionamento.
 A solução foi simples: colocar diodos nos sinais de direção.
 No Arduino o problema não ocorreu, mas no ESP32 os diodos resolveram completamente.
 
-  *Bibliotecas e Configuração do Ambiente
+##Bibliotecas e Configuração do Ambiente
 
 Para compilar o código no Arduino IDE:
 Adicionar URLs do gerenciador de placas
@@ -31,7 +31,7 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 https://raw.githubusercontent.com/ricardoquesada/esp32-arduino-lib-builder/master/bluepad32_files/package_esp32_bluepad32_index.json
 
-*Instalar bibliotecas
+##Instalar bibliotecas
 Depois:
 Ferramentas → Gerenciador de Bibliotecas
 
