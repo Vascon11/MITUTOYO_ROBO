@@ -1,4 +1,4 @@
-Projeto: Robô Sumo com ESP32 + L298N
+# Projeto: Robô Sumo
 
 Este repositório tem como objetivo fornecer uma base simples e reutilizável para quem deseja montar um robô sumô utilizando o ESP32 e controlar tudo via controle Bluetooth usando a biblioteca Bluepad32.
 Se você está começando um projeto ou quer um código rápido para protótipos, este material serve como ponto de partida.
