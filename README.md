@@ -2,6 +2,8 @@
 Este repositório tem como objetivo fornecer uma base simples e reutilizável para quem deseja montar um robô sumô utilizando o ESP32 e controlar tudo via controle Bluetooth usando a biblioteca Bluepad32.
 Se você está começando um projeto ou quer um código rápido para protótipos, este material serve como ponto de partida.
 
+!https://github.com/Vascon11/MITUTOYO_ROBO/blob/main/imagens/imagens%20finalizada.jpeg?raw=true
+
 ## Arquitetura do Robô
 O robô utiliza o clássico driver de motor L298N, capaz de controlar dois motores DC simultaneamente. Além de fornecer controle de direção, esse módulo também disponibiliza uma saída regulada de 5V, que utilizamos para alimentar o VIN do ESP32 — e funcionou perfeitamente.
 Optamos por usar dois motores e um ponto de apoio traseiro (rampa/rodízio), o que permite ao robô mover-se para frente, para trás e realizar curvas sem complexidade adicional.
