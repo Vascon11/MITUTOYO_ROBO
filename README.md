@@ -23,10 +23,10 @@ Adicionar URLs do gerenciador de placas
 Vá em:
 Arquivo → Preferências → URLs do Gerenciador de Placas Adicionais
 Adicione estas URLs:
-# https://arduino.esp8266.com/stable/package_esp8266com_index.json
-# https://espressif.github.io/arduino-esp32/package_esp32_index.json
-# https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
-# https://raw.githubusercontent.com/ricardoquesada/esp32-arduino-lib-builder/master/bluepad32_files/package_esp32_bluepad32_index.json
+* https://arduino.esp8266.com/stable/package_esp8266com_index.json
+* https://espressif.github.io/arduino-esp32/package_esp32_index.json
+* https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+* https://raw.githubusercontent.com/ricardoquesada/esp32-arduino-lib-builder/master/bluepad32_files/package_esp32_bluepad32_index.json
 
 ## Instalar bibliotecas
 Depois:
