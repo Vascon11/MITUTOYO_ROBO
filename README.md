@@ -5,7 +5,7 @@ Se você está começando um projeto ou quer um código rápido para protótipos
 ![https://github.com/Vascon11/MITUTOYO_ROBO/blob/main/imagens/imagens%20finalizada.jpeg?raw=true](https://raw.githubusercontent.com/Vascon11/MITUTOYO_ROBO/refs/heads/main/imagens/imagens%20finalizada.jpeg)
 
 ## Arquitetura do Robô
-O robô utiliza o clássico driver de motor L298N, capaz de controlar dois motores DC simultaneamente. Além de fornecer controle de direção, esse módulo também disponibiliza uma saída regulada de 5V, que utilizamos para alimentar o VIN do ESP32 — e funcionou perfeitamente.
+O robô utiliza o clássico driver de motor L298N, capaz de controlar dois motores DC simultaneamente. Além de fornecer controle de direção, esse módulo também disponibiliza uma saída regulada de 5V, que utilizamos para alimentar o VIN do ESP32 e funcionou perfeitamente.
 Optamos por usar dois motores e um ponto de apoio traseiro (rampa/rodízio), o que permite ao robô mover-se para frente, para trás e realizar curvas sem complexidade adicional.
 A alimentação vem de uma bateria de 12V / 2A, ligada através de uma chave para ligar/desligar todo o sistema.
 
