@@ -19,7 +19,7 @@ Depois de investigação e vários testes, identificamos que a corrente retornav
 A solução foi simples: colocar diodos nos sinais de direção.
 No Arduino o problema não ocorreu, mas no ESP32 os diodos resolveram completamente.
 
-![https://github.com/Vascon11/MITUTOYO_ROBO/blob/main/imagens/imagem%20circuito%20robo.jpeg?raw=true](https://github.com/Vascon11/MITUTOYO_ROBO/blob/main/imagens/imagem%20circuito%20robo.jpeg?raw=true)
+!(https://raw.githubusercontent.com/Vascon11/MITUTOYO_ROBO/refs/heads/main/imagens/imagem%20circuito%20robo.jpeg)[https://raw.githubusercontent.com/Vascon11/MITUTOYO_ROBO/refs/heads/main/imagens/imagem%20circuito%20robo.jpeg]
 
 ## Bibliotecas e Configuração do Ambiente
 Para compilar o código no Arduino IDE:
