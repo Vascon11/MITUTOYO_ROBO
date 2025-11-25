@@ -5,7 +5,7 @@ ControllerPtr myControllers[BP32_MAX_GAMEPADS];
 // Motor A (direito)
 #define ENA 25
 #define IN1 2
-#define IN2 27
+#define IN2 4
 
 // Motor B (esquerdo)
 #define ENB 26
