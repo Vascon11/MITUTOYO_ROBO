@@ -9,14 +9,15 @@ O robô utiliza o clássico driver de motor L298N, capaz de controlar dois motor
 Optamos por usar dois motores e um ponto de apoio traseiro (rampa/rodízio), o que permite ao robô mover-se para frente, para trás e realizar curvas sem complexidade adicional.
 A alimentação vem de uma bateria de 12V / 2A, ligada através de uma chave para ligar/desligar todo o sistema.
 
-![https://github.com/Vascon11/MITUTOYO_ROBO/blob/main/imagens/circuito%20do%20robo.png?raw=true](https://raw.githubusercontent.com/Vascon11/MITUTOYO_ROBO/refs/heads/main/imagens/circuito%20do%20robo.png)
+![https://github.com/Vascon11/MITUTOYO_ROBO/blob/main/imagens/Circuito%20atualizado.png?raw=true](https://raw.githubusercontent.com/Vascon11/MITUTOYO_ROBO/refs/heads/main/imagens/Circuito%20atualizado.png)
 
 Materias:
 * Bateria de 12v
 * 4 diodos
 * ponte h com l298n (driver de motor l298n)
 * DOIT ESP32 DEV KIT V1
-* 2 motores com caixa de redução de 5v 
+* 2 motores com caixa de redução de 5v
+* 1 Capacitor (1000 a 2200 uF, maior que 15v)
 
 Observação:
 Os motores usados são indicados para cerca de 5–6V, então quando alimentados com 10–11V, a vida útil tende a diminuir. Para uma competição rápida, isso não deve ser um problema, mas se preferir, você pode adicionar um resistor ou regulador DC-DC step-down para manter os 6V seguros.
